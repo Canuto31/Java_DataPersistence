@@ -14,8 +14,8 @@ public class Main {
             System.out.println(" APLICACION DE MENSAJES  ");
             System.out.println("1. Crear mensajes.");
             System.out.println("2. Listar mensajes.");
-            System.out.println("3. Editar mensaje.");
-            System.out.println("4. Eliminar mensaje;");
+            System.out.println("3. Eliminar mensaje;");
+            System.out.println("4. Editar mensaje.");
             System.out.println("5. Salir.");
 
             opcion = sc.nextInt();
@@ -23,8 +23,8 @@ public class Main {
             switch (opcion) {
                 case 1 -> MessageService.crearMensaje();
                 case 2 -> MessageService.listarMensajes();
-                case 3 -> MessageService.editarMensaje();
-                case 4 -> MessageService.borrarMensaje();
+                case 3 -> MessageService.borrarMensaje();
+                case 4 -> MessageService.editarMensaje();
                 default -> {
                 }
             }
